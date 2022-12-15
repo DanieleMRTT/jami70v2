@@ -32,9 +32,9 @@ public class saluto extends HttpServlet {
 		String user = request.getParameter("user");
 		PrintWriter out = response.getWriter();
 		if(user.equals("Giovanni")) {
-			out.print("ciao " + user);
+			out.print("Hello github " + user);
 		} else {
-			out.print("ciao else " + user);
+			out.print("Ciao " + user);
 		}
 	}
 
